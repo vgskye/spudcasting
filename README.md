@@ -15,4 +15,4 @@ If you wear a poisonous potato plant on your head then hovering over items will 
 
 ## Example
 
-<video src="https://github.com/gamma-delta/spudcasting/raw/main/deco/spudcasting-01.mp4"></video>
+https://github.com/gamma-delta/spudcasting/assets/29877714/592ec55f-e1be-4505-86c1-8eaccf5815ae
