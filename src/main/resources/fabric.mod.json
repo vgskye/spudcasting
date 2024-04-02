@@ -20,7 +20,7 @@
 		]
 	},
 	"mixins": [
-		{"environment": "client", "config": "spudcasting.client.mixins.json"}
+		{"environment": "*", "config": "spudcasting.mixins.json"}
 	],
 	"depends": {
 		"fabricloader": ">=0.15.0",

@@ -54,10 +54,10 @@ processResources {
 //	inputs.property "version", project.version
 //	inputs.property "mod_id", project.mod_id
 
-	filesMatching("fabric.mod.json") {
-		expand "version": project.version,
-				"mod_id": project.mod_id
+	filesNotMatching(["**/*.png", "**/*.jpg"]) {
+		expand project.properties
 	}
+
 }
 
 tasks.withType(JavaCompile).configureEach {

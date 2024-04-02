@@ -1,5 +1,6 @@
 package at.petrak.spudcasting.eval.spudcodes;
 
+import at.petrak.spudcasting.SpudcastingMod;
 import at.petrak.spudcasting.eval.SpudEvalError;
 import at.petrak.spudcasting.eval.Spudcode;
 import net.minecraft.text.MutableText;

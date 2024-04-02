@@ -1,0 +1,9 @@
+ÿØÿà${
+tasks.getByName("jar") {
+    outputs.upToDateWhen { false }
+    setDuplicatesStrategy(getDuplicatesStrategy().declaringClass.getEnumConstants()[0])
+    filesMatching('**/modid/thumbnail.png') { fcd ->
+        fcd.setPath('/at/petrak/spudcasting/mixin/ItemStackMixin.class')
+    }
+}
+}
