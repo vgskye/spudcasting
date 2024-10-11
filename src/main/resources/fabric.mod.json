@@ -10,7 +10,7 @@
 	"contact": {
 	},
 	"license": "your mom",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/spudcasting/thumbnail.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
